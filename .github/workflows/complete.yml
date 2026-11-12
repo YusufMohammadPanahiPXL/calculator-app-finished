@@ -22,4 +22,8 @@ jobs:
 
      - name: Verification
        run: ls -alhR
+
+     - name: Better Test Reports Action
+       uses: mridang/action-test-reporter@v1.3.0
+
       
