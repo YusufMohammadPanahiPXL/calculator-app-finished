@@ -38,7 +38,7 @@ jobs:
        with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/calculator-app:latest
+        tags: yusufmohammadpanahipxl/calculator-app:latest
 
 
 
