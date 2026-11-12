@@ -1,4 +1,4 @@
-name: Dependencies Example
+name: Build Example
 on: workflow_dispatch
 
 jobs:
@@ -10,6 +10,9 @@ jobs:
 
      - name: Setup Node.js environment
        uses: actions/setup-node@v7.1.0
+
+     - name: Build the code
+       run: zip -r release.zip
 
      - name: Verification
        run: ls -alhR
