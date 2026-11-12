@@ -25,7 +25,7 @@ jobs:
        run: ls -alhR
 
      - name: Better Test Reports Action
-       uses: mridang/action-test-reporter@v1.3.0
+       uses: mridang/action-test-reporter@v1.2.4
 
      - name: Set up Docker Buildx 
        uses: docker/setup-buildx-action@v3
